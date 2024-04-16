@@ -2,7 +2,7 @@
 
 # unicom
 
-<img src="./img/unicorn.png" width="200">
+<img src="https://github.com/moz-sec/unicom/blob/main/img/unicorn.png" width="200">
 
 [![Lang](https://img.shields.io/badge/Rust-1.77+-blue.svg?logo=rust)](https://www.rust-lang.org/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
