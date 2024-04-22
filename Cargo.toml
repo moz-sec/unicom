@@ -1,7 +1,12 @@
 [package]
 name = "unicom"
 version = "0.1.0"
+authors = ["moz-sec <m0253c@gmail.com>"]
 edition = "2021"
+
+license = "MIT"
+description = "unicom is Universal Compressor"
+repository = "https://github.com/moz-sec/unicom"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
