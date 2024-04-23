@@ -48,11 +48,9 @@ fn hello() -> String {
 }
 
 fn main() {
-    let args = Args::parse();
+    let _args = Args::parse();
 
     println!("Hello, world!");
-
-
     println!("{}", hello());
 }
 
