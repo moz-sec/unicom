@@ -1,9 +1,9 @@
-name: Rust
+name: Rust build and send coverage
 
 on:
   push:
-    branches:
-      - "**"
+    branches: ["main"]
+    paths: ["src/**", "Cargo.toml"]
 
 jobs:
   build:
