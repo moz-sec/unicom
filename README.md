@@ -8,6 +8,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/moz-sec/unicom)](https://rust-reportcard.xuri.me/report/github.com/moz-sec/unicom)
 [![Coverage Status](https://coveralls.io/repos/github/moz-sec/unicom/badge.svg?branch=main)](https://coveralls.io/github/moz-sec/unicom?branch=main)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11090375.svg)](https://doi.org/10.5281/zenodo.11090375)
 
 `unicom` is Universal Compressor.
 
