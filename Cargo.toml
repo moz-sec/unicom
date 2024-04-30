@@ -14,3 +14,7 @@ categories = ["rust", "cli", "compression", "command-line", "tool"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
+
+[build-dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+clap_complete = "4.5.2"
