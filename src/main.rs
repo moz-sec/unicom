@@ -5,7 +5,7 @@ mod cli;
 fn main() {
     let args = cli::Args::parse();
 
-    print!("{:?}", args);
+    println!("{:?}", args);
 }
 
 #[cfg(test)]
