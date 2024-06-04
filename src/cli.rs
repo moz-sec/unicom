@@ -5,14 +5,14 @@ use clap::{Parser, ValueEnum};
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
-pub struct Args {
+pub struct CliOpts {
     /// Compress or Decompress files name
     #[arg(required = true)]
     pub files: Vec<PathBuf>,
 
     /// Whether to decompress the input
     #[arg(short, long)]
-    decompress: bool,
+    pub decompress: bool,
 
     /// Put passwords on compressed files
     #[arg(short, long)]
@@ -24,7 +24,7 @@ pub struct Args {
 
     /// Whether to recursively greet
     #[arg(short, long)]
-    recursive: bool,
+    pub recursive: bool,
 
     /// Verbose mode
     #[arg(short, long)]
