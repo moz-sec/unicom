@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Releases on unicom</title>
-    <link>http://localhost:1313/blog/releases/</link>
+    <link>https://moz-sec/unicom/blog/releases/</link>
     <description>Recent content in Releases on unicom</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/releases/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://moz-sec/unicom/blog/releases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another Great Release</title>
-      <link>http://localhost:1313/blog/releases/in-depth-monoliths-detailed-spec/</link>
+      <link>https://moz-sec/unicom/blog/releases/in-depth-monoliths-detailed-spec/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/releases/in-depth-monoliths-detailed-spec/</guid>
+      <guid>https://moz-sec/unicom/blog/releases/in-depth-monoliths-detailed-spec/</guid>
       <description>Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be no margin above this first sentence.</description>
     </item>
   </channel>

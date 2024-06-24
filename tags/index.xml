@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on unicom</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://moz-sec/unicom/tags/</link>
     <description>Recent content in Tags on unicom</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://moz-sec/unicom/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docs</title>
-      <link>http://localhost:1313/tags/docs/</link>
+      <link>https://moz-sec/unicom/tags/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/docs/</guid>
+      <guid>https://moz-sec/unicom/tags/docs/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample</title>
-      <link>http://localhost:1313/tags/sample/</link>
+      <link>https://moz-sec/unicom/tags/sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sample/</guid>
+      <guid>https://moz-sec/unicom/tags/sample/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/tags/test/</link>
+      <link>https://moz-sec/unicom/tags/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/test/</guid>
+      <guid>https://moz-sec/unicom/tags/test/</guid>
       <description></description>
     </item>
   </channel>
