@@ -1,6 +1,6 @@
-baseURL = 'https://moz-sec/unicom/'
-languageCode = 'en-us'
-title = 'unicom'
+baseURL = "https://moz-sec/unicom/"
+languageCode = "en-us"
+title = "unicom"
 
 [module]
   proxy = "direct"
