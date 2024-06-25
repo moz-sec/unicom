@@ -16,3 +16,4 @@ Cargo.lock
 # custom ignore
 .DS_Store
 .vscode/
+docs/
