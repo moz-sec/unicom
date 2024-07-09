@@ -63,7 +63,6 @@ fn dir_archive<W: Write + Seek>(
     options: SimpleFileOptions,
 ) -> Result<(), Box<dyn Error>> {
     for entry in target.read_dir()? {
-        println!("{:?}", entry);
         match entry {
             Ok(directory) => {
                 let files = directory.path();

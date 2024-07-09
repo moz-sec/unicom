@@ -10,11 +10,9 @@ pub(super) struct ZipExtractor {}
 
 impl Extractor for ZipExtractor {
     fn perform(&self, archive_file: PathBuf, opts: &ExtractorOpts) -> Result<(), Box<dyn Error>> {
-        println!("Extracting {:?}", archive_file);
         let zip_file = File::open(&archive_file).unwrap();
         let mut zip = zip::ZipArchive::new(zip_file).unwrap();
         let dest_base = opts.destination(&archive_file);
-        println!("Extracting to {:?}", dest_base);
         for i in 0..zip.len() {
             let mut file = zip.by_index(i).unwrap();
             if file.is_file() {

@@ -17,7 +17,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 
 fn run(args: cli::CliArgs) -> Result<(), Box<dyn Error>> {
-    println!("{:#?}", args);
+    // println!("{:#?}", args);
     if args.decompress {
         perform_extract(args)?;
     } else {
@@ -37,14 +37,7 @@ fn perform_archive(opts: cli::CliArgs) -> Result<(), Box<dyn Error>> {
 
 fn perform_extract(args: cli::CliArgs) -> Result<(), Box<dyn Error>> {
     let extract_opts = extractor::ExtractorOpts::new(&args);
-    println!("{:?}", extract_opts);
-    // for arg in args.files.iter() {
-    //     let extractor = extractor::create_extractor(arg).unwrap();
-    //     let target = arg.to_path_buf();
-    // }
-    // Ok(())
     let file = args.files.first().unwrap();
-    println!("{:?}", file);
     match extractor::create_extractor(file) {
         Ok(extractor) => extractor.perform(file.to_path_buf(), &extract_opts),
         Err(_) => Err("An error occurred during archiving".into()),
