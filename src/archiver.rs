@@ -1,5 +1,5 @@
 use crate::archiver::zip::ZipArchiver;
-use crate::cli::{CliOpts, Format};
+use crate::cli::{CliArgs, Format};
 use std::error::Error;
 use std::path::PathBuf;
 
@@ -24,12 +24,12 @@ pub struct ArchiveOpts {
 }
 
 impl ArchiveOpts {
-    pub fn new(opts: &CliOpts) -> Self {
-        let files = opts.files.clone();
+    pub fn new(args: &CliArgs) -> Self {
+        let files = args.files.clone();
         ArchiveOpts {
-            format: opts.format.clone(),
+            format: args.format.clone(),
             files: files,
-            recursive: opts.recursive,
+            recursive: args.recursive,
         }
     }
 

@@ -6,7 +6,9 @@ use zip::result::ZipResult;
 use zip::write::SimpleFileOptions;
 use zip::ZipWriter;
 
-use crate::archiver::{ArchiveOpts, Archiver, Format};
+use crate::archiver::{ArchiveOpts, Archiver};
+use crate::cli::Format;
+// use crate::format::Format;
 
 pub(super) struct ZipArchiver {}
 
@@ -28,9 +30,9 @@ fn perform_archive(files: Vec<PathBuf>, recursive: bool) -> ZipResult<()> {
 
     for file in files {
         if file.is_dir() && recursive {
-            dir_archive(&mut zw, file.to_path_buf(), options);
+            let _ = dir_archive(&mut zw, file.to_path_buf(), options);
         } else {
-            file_archive(&mut zw, file.to_path_buf(), options);
+            let _ = file_archive(&mut zw, file.to_path_buf(), options);
         }
     }
 
@@ -49,8 +51,8 @@ fn file_archive<W: Write + Seek>(
     let mut r = File::open(&target)?;
     let _ = r.read_to_end(&mut bytes)?;
 
-    zw.start_file_from_path(&mut target, options);
-    zw.write(&bytes);
+    let _ = zw.start_file_from_path(&mut target, options);
+    let _ = zw.write(&bytes);
 
     Ok(())
 }
@@ -66,9 +68,9 @@ fn dir_archive<W: Write + Seek>(
             Ok(directory) => {
                 let files = directory.path();
                 if files.is_dir() {
-                    dir_archive(zw, files, options)?;
+                    let _ = dir_archive(zw, files, options)?;
                 } else {
-                    file_archive(zw, files, options);
+                    let _ = file_archive(zw, files, options);
                 }
             }
             Err(err) => eprintln!("{}", err),

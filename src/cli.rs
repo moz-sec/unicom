@@ -5,7 +5,7 @@ use clap::{Parser, ValueEnum};
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
-pub struct CliOpts {
+pub struct CliArgs {
     /// Compress or Decompress files name
     #[arg(required = true)]
     pub files: Vec<PathBuf>,
@@ -28,7 +28,7 @@ pub struct CliOpts {
 
     /// Verbose mode
     #[arg(short, long)]
-    verbose: bool,
+    pub verbose: bool,
 
     /// Number of compressions to perform
     #[arg(short, long, default_value = "6")]
