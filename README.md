@@ -27,10 +27,11 @@ The following is the `unicom` help output.
 ```txt
 unicom is Universal Compressor
 
-Usage: unicom [OPTIONS] <FILES>...
+Usage: unicom [OPTIONS] <ARCHIVE_FILE> <FILES>...
 
 Arguments:
-  <FILES>...  Compress or Decompress files name
+  <ARCHIVE_FILE>  Compressed filename
+  <FILES>...      Target files name
 
 Options:
   -d, --decompress       Whether to decompress the input

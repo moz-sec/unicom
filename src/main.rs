@@ -37,9 +37,9 @@ fn perform_archive(opts: cli::CliArgs) -> Result<(), Box<dyn Error>> {
 
 fn perform_extract(args: cli::CliArgs) -> Result<(), Box<dyn Error>> {
     let extract_opts = extractor::ExtractorOpts::new(&args);
-    let file = args.files.first().unwrap();
-    match extractor::create_extractor(file) {
-        Ok(extractor) => extractor.perform(file.to_path_buf(), &extract_opts),
+    let archive_file = &args.archive_file;
+    match extractor::create_extractor(archive_file) {
+        Ok(extractor) => extractor.perform(archive_file.to_path_buf(), &extract_opts),
         Err(_) => Err("An error occurred during archiving".into()),
     }
 }

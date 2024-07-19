@@ -14,8 +14,12 @@ pub(super) struct ZipArchiver {}
 
 impl Archiver for ZipArchiver {
     fn perform(&self, inout: &ArchiveOpts) -> Result<(), Box<dyn Error>> {
-        let files = inout.targets();
-        perform_archive(files, inout.recursive)?;
+        match inout.destination() {
+            Err(e) => eprintln!("{}", e),
+            Ok(dest) => {
+                perform_archive(dest, inout.targets(), inout.recursive)?;
+            }
+        }
         Ok(())
     }
 
@@ -24,8 +28,8 @@ impl Archiver for ZipArchiver {
     }
 }
 
-fn perform_archive(files: Vec<PathBuf>, recursive: bool) -> ZipResult<()> {
-    let mut zw = ZipWriter::new(File::create("test.zip")?);
+fn perform_archive(dest: File, files: Vec<PathBuf>, recursive: bool) -> ZipResult<()> {
+    let mut zw = ZipWriter::new(dest);
     let options = SimpleFileOptions::default().compression_method(zip::CompressionMethod::Stored);
 
     for file in files {

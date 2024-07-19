@@ -6,7 +6,10 @@ use clap::{Parser, ValueEnum};
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 pub struct CliArgs {
-    /// Compress or Decompress files name
+    /// Compressed filename
+    pub archive_file: PathBuf,
+
+    /// Target files name
     #[arg(required = true)]
     pub files: Vec<PathBuf>,
 
