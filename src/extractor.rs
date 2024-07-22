@@ -14,7 +14,6 @@ pub trait Extractor {
         archive_file: PathBuf,
         opts: &ExtractorOpts,
     ) -> Result<(), Box<dyn std::error::Error>>;
-    fn format(&self) -> Format;
 }
 
 pub fn create_extractor(file: &PathBuf) -> Result<Box<dyn Extractor>, Box<dyn Error>> {

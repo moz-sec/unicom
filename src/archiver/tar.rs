@@ -6,7 +6,6 @@ use std::path::PathBuf;
 use tar::Builder;
 
 use crate::archiver::{ArchiveOpts, Archiver};
-use crate::cli::Format;
 
 pub(super) struct TarGzArchiver {}
 
@@ -15,10 +14,6 @@ impl Archiver for TarGzArchiver {
         write_tar(inout, |file| {
             GzEncoder::new(file, flate2::Compression::default())
         })
-    }
-
-    fn format(&self) -> Format {
-        Format::TarGz
     }
 }
 

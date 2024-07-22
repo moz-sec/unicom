@@ -7,7 +7,6 @@ use zip::write::SimpleFileOptions;
 use zip::ZipWriter;
 
 use crate::archiver::{ArchiveOpts, Archiver};
-use crate::cli::Format;
 // use crate::format::Format;
 
 pub(super) struct ZipArchiver {}
@@ -21,10 +20,6 @@ impl Archiver for ZipArchiver {
             }
         }
         Ok(())
-    }
-
-    fn format(&self) -> Format {
-        Format::Zip
     }
 }
 

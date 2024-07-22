@@ -3,7 +3,6 @@ use std::fs::{create_dir_all, File};
 use std::io::copy;
 use std::path::PathBuf;
 
-use crate::cli::Format;
 use crate::extractor::{Extractor, ExtractorOpts};
 
 pub(super) struct ZipExtractor {}
@@ -23,9 +22,5 @@ impl Extractor for ZipExtractor {
             }
         }
         Ok(())
-    }
-
-    fn format(&self) -> Format {
-        Format::Zip
     }
 }

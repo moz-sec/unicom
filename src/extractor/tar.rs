@@ -6,7 +6,6 @@ use std::{fs::File, path::PathBuf};
 
 use tar::Archive;
 
-use crate::cli::Format;
 use crate::extractor::{Extractor, ExtractorOpts};
 
 pub(super) struct TarGzExtractor {}
@@ -17,9 +16,6 @@ impl Extractor for TarGzExtractor {
             Ok(archive) => extract_tar(archive, archive_file, opts),
             Err(e) => Err(e),
         }
-    }
-    fn format(&self) -> Format {
-        Format::TarGz
     }
 }
 

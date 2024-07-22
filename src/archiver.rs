@@ -10,7 +10,6 @@ mod zip;
 
 pub trait Archiver {
     fn perform(&self, inout: &ArchiveOpts) -> Result<(), Box<dyn Error>>;
-    fn format(&self) -> Format;
 }
 
 pub fn create_archiver(opts: &ArchiveOpts) -> Result<Box<dyn Archiver>, Box<dyn Error>> {
