@@ -30,11 +30,9 @@ pub fn create_extractor(file: &PathBuf) -> Result<Box<dyn Extractor>, Box<dyn Er
     }
 }
 
-#[derive(Debug)]
 pub struct ExtractorOpts {
     pub dest: PathBuf,
     pub use_archive_name_dir: bool,
-    pub verbose: bool,
 }
 
 impl ExtractorOpts {
@@ -43,7 +41,6 @@ impl ExtractorOpts {
         ExtractorOpts {
             dest: d.unwrap_or_else(|| PathBuf::from(".")),
             use_archive_name_dir: false,
-            verbose: args.verbose,
         }
     }
 
