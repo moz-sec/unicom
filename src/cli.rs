@@ -37,7 +37,7 @@ pub struct CliArgs {
     pub count: u32,
 }
 
-#[derive(Debug, Clone, ValueEnum)]
+#[derive(Debug, Clone, ValueEnum, PartialEq)]
 pub enum Format {
     Zip,
     Tar,
