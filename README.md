@@ -72,7 +72,7 @@ tar -zxvf unicom-{version}_{architecture}.tar.gz
 If you are on a Mac, you can also install it using brew.
 
 ```bash
-brew install unicom
+brew install moz-sec/tap/unicom
 ```
 
 ### Docker
