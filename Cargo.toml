@@ -14,6 +14,8 @@ categories = ["rust", "cli", "compression", "command-line", "tool"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
+flate2 = "1.0.30"
+tar = "0.4.41"
 zip = "2.1.3"
 
 [build-dependencies]

@@ -3,8 +3,8 @@ use std::fs::{create_dir_all, File};
 use std::io::copy;
 use std::path::PathBuf;
 
+use crate::cli::Format;
 use crate::extractor::{Extractor, ExtractorOpts};
-use crate::format::Format;
 
 pub(super) struct ZipExtractor {}
 

@@ -1,3 +1,4 @@
+use crate::cli::Format;
 use std::error::Error;
 use std::ffi::OsStr;
 use std::fmt::Display;
@@ -29,24 +30,11 @@ pub fn find_format(file_name: Option<&OsStr>) -> Result<Format, Box<dyn Error>> 
             {
                 return Ok(Format::Zip);
             } else {
-                return Ok(Format::Unknown(file_name.to_str().unwrap().to_string()));
+                return Err("Unsupported format".into());
             }
         }
         None => Err("No arguments given. Use --help for usage.".into()),
     }
-}
-
-pub enum Format {
-    Zip,
-    Tar,
-    TarGz,
-    TarBz2,
-    TarXz,
-    TarZstd,
-    SevenZ,
-    LHA,
-    Rar,
-    Unknown(String),
 }
 
 impl Display for Format {
@@ -61,7 +49,6 @@ impl Display for Format {
             Format::SevenZ => write!(f, "SevenZ"),
             Format::LHA => write!(f, "LHA"),
             Format::Rar => write!(f, "Rar"),
-            Format::Unknown(s) => write!(f, "{}: unknown format", s),
         }
     }
 }

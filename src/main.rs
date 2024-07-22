@@ -40,7 +40,7 @@ fn perform_extract(args: cli::CliArgs) -> Result<(), Box<dyn Error>> {
     let archive_file = &args.archive_file;
     match extractor::create_extractor(archive_file) {
         Ok(extractor) => extractor.perform(archive_file.to_path_buf(), &extract_opts),
-        Err(_) => Err("An error occurred during archiving".into()),
+        Err(_) => Err("An error occurred during extracting".into()),
     }
 }
 

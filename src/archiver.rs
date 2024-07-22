@@ -1,9 +1,11 @@
+use crate::archiver::tar::TarGzArchiver;
 use crate::archiver::zip::ZipArchiver;
 use crate::cli::{CliArgs, Format};
 use std::error::Error;
 use std::fs::{create_dir_all, File};
 use std::path::PathBuf;
 
+mod tar;
 mod zip;
 
 pub trait Archiver {
@@ -14,6 +16,7 @@ pub trait Archiver {
 pub fn create_archiver(opts: &ArchiveOpts) -> Result<Box<dyn Archiver>, Box<dyn Error>> {
     match opts.format {
         Format::Zip => Ok(Box::new(ZipArchiver {})),
+        Format::TarGz => Ok(Box::new(TarGzArchiver {})),
         _ => Err("Unsupported format".into()),
     }
 }

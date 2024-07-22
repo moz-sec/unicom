@@ -1,9 +1,11 @@
-use crate::cli::CliArgs;
+use crate::cli::{CliArgs, Format};
+use crate::extractor::tar::TarGzExtractor;
 use crate::extractor::zip::ZipExtractor;
-use crate::format::{find_format, Format};
+use crate::format::find_format;
 use std::error::Error;
 use std::path::PathBuf;
 
+mod tar;
 mod zip;
 
 pub trait Extractor {
@@ -21,7 +23,7 @@ pub fn create_extractor(file: &PathBuf) -> Result<Box<dyn Extractor>, Box<dyn Er
         Ok(format) => {
             return match format {
                 Format::Zip => Ok(Box::new(ZipExtractor {})),
-                Format::Unknown(s) => Err(format!("{}: unsupported format", s).into()),
+                Format::TarGz => Ok(Box::new(TarGzExtractor {})),
                 _ => todo!(),
             }
         }

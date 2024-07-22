@@ -1,6 +1,5 @@
-use std::path::PathBuf;
-
 use clap::{Parser, ValueEnum};
+use std::path::PathBuf;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -38,8 +37,15 @@ pub struct CliArgs {
     pub count: u32,
 }
 
-#[derive(ValueEnum, Clone, Debug)]
+#[derive(Debug, Clone, ValueEnum)]
 pub enum Format {
-    Gzip,
     Zip,
+    Tar,
+    TarGz,
+    TarBz2,
+    TarXz,
+    TarZstd,
+    SevenZ,
+    LHA,
+    Rar,
 }
