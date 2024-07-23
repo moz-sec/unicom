@@ -85,7 +85,7 @@ Mount the container in "/workdir".
 Specify {unicom arguments} for the unicom command.
 
 ```bash
-docker run -it -v {Host Volume Path}:/workdir --rm mozsec/unicom:latest {unicom arguments}
+docker run -it -v {Host Volume Path}:/workdir --rm ghcr.io/moz-sec/unicom:latest {unicom arguments}
 ```
 
 ## Maintainers
