@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unicom</title>
+    <link>http://localhost:1313/unicom/</link>
+    <description>Recent content on unicom</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/unicom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/unicom/docs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/overview/</guid>
+      <description>This is a placeholder page that shows you how to use this template site.&#xA;The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide).&#xA;Try answering these questions for your user in this page:&#xA;What is it?</description>
+    </item>
+    <item>
+      <title>Bed and Chair Metrics</title>
+      <link>http://localhost:1313/unicom/docs/tasks/beds/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tasks/beds/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Configuring Ponycopters</title>
+      <link>http://localhost:1313/unicom/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Examples</title>
+      <link>http://localhost:1313/unicom/docs/examples/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/examples/</guid>
+      <description>This is a placeholder page that shows you how to use this template site.&#xA;Do you have any example applications or code for your users in your repo or elsewhere? Link to your examples here.</description>
+    </item>
+    <item>
+      <title>Launching Ponycopters</title>
+      <link>http://localhost:1313/unicom/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Multi-Bear Domicile Setup</title>
+      <link>http://localhost:1313/unicom/docs/tutorials/multi-bear/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tutorials/multi-bear/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Porridge Assessment</title>
+      <link>http://localhost:1313/unicom/docs/tasks/porridge/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tasks/porridge/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>http://localhost:1313/unicom/docs/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/concepts/</guid>
+      <description>This is a placeholder page that shows you how to use this template site.&#xA;For many projects, users may not need much information beyond the information in the Overview, so this section is optional. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section.</description>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>http://localhost:1313/unicom/usage/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/usage/concepts/</guid>
+      <description>This is a placeholder page that shows you how to use this template site.&#xA;For many projects, users may not need much information beyond the information in the Overview, so this section is optional. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section.</description>
+    </item>
+    <item>
+      <title>Another Task</title>
+      <link>http://localhost:1313/unicom/docs/tasks/task/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tasks/task/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Contribution Guidelines</title>
+      <link>http://localhost:1313/unicom/docs/contribution-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/contribution-guidelines/</guid>
+      <description>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. Kubeflow has a great example.</description>
+    </item>
+    <item>
+      <title>Release v.0.1.0</title>
+      <link>http://localhost:1313/unicom/blog/releases/release_0.1.0/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/blog/releases/release_0.1.0/</guid>
+      <description>unicom v0.1.0 is the first release of the project.&#xA;unicom</description>
+    </item>
+    <item>
+      <title>Example Page</title>
+      <link>http://localhost:1313/unicom/docs/getting-started/example-page/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/getting-started/example-page/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title>Parameter Reference</title>
+      <link>http://localhost:1313/unicom/docs/reference/parameter-reference/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/reference/parameter-reference/</guid>
+      <description>This is a placeholder page. Replace it with your own content.&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/unicom/docs/tutorials/tutorial2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/docs/tutorials/tutorial2/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>About unicom</title>
+      <link>http://localhost:1313/unicom/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/about/</guid>
+      <description>About unicom Description Currently, there are different methods of compressing files, and for each format, a unique tool is used. However, each tool has different commands and options, making it difficult to use. Therefore, unicom makes it possible to handle various compression formats in a unified interface.</description>
+    </item>
+    <item>
+      <title>About unicom</title>
+      <link>http://localhost:1313/unicom/unicom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/unicom/</guid>
+      <description>About unicom Description Currently, there are different methods of compressing files, and for each format, a unique tool is used. However, each tool has different commands and options, making it difficult to use. Therefore, unicom makes it possible to handle various compression formats in a unified interface.</description>
+    </item>
+    <item>
+      <title>Search Results</title>
+      <link>http://localhost:1313/unicom/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usage on unicom</title>
+    <link>http://localhost:1313/unicom/usage/</link>
+    <description>Recent content in usage on unicom</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/unicom/usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concepts</title>
+      <link>http://localhost:1313/unicom/usage/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicom/usage/concepts/</guid>
+      <description>This is a placeholder page that shows you how to use this template site.&#xA;For many projects, users may not need much information beyond the information in the Overview, so this section is optional. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section.</description>
+    </item>
+  </channel>
+</rss>
