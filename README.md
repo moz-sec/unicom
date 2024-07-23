@@ -64,6 +64,7 @@ Binaries can be downloaded from the [Releases](https://github.com/moz-sec/unicom
 Download and extract the binaries according to your environment.
 
 ```bash
+wget unicom-{version}_{architecture}.tar.gz
 tar -zxvf unicom-{version}_{architecture}.tar.gz
 ```
 
@@ -78,7 +79,7 @@ brew install moz-sec/tap/unicom
 ### Docker
 
 You can also use the Docker image.
-unicom's docker repository is [here](https://hub.docker.com/repository/docker/mozsec/unicom/general).
+unicom's docker repository is [here](https://github.com/moz-sec/unicom/pkgs/container/unicom).
 Put the path containing the files or directories you want to compress in {Host Volume Path}.
 Mount the container in "/workdir".
 **The compressed file will be created in the {Host Volume Path}.**
